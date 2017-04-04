@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  mysql-backup-s3:
+    build: .
+    image: aoepeople/mysql-backup-s3
